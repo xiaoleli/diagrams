@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-17T08:03:46.412Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="OLkW3KAKw5y3CkHTCw9H" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-17T08:05:17.141Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="2f9JWlCB2efaTo-9b0oC" version="16.5.6" type="github">
   <diagram id="6UdZOCGWEcPKKIxj0FiE" name="Page-1">
     <mxGraphModel dx="865" dy="483" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
           <mxGeometry y="112" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="0wXc-sIg5kLD4XfbYJC--18" value="MessageHandleClass" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="60" y="40" width="300" height="476" as="geometry" />
+          <mxGeometry x="60" y="38" width="300" height="554" as="geometry" />
         </mxCell>
         <mxCell id="0wXc-sIg5kLD4XfbYJC--19" value="+ revIPAddress_: string" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0wXc-sIg5kLD4XfbYJC--18">
           <mxGeometry y="26" width="300" height="26" as="geometry" />
@@ -79,8 +79,17 @@
         <mxCell id="0wXc-sIg5kLD4XfbYJC--35" value="+ getUdpPublishMsgQueueFront(): UdpPublishMsg" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0wXc-sIg5kLD4XfbYJC--18">
           <mxGeometry y="424" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="0wXc-sIg5kLD4XfbYJC--36" value="+ getUdpPublishMsgQueueFront(): UdpPublishMsg" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0wXc-sIg5kLD4XfbYJC--18">
+        <mxCell id="0wXc-sIg5kLD4XfbYJC--36" value="+ udpPublishMsgQueueIsEmpty(): bool" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0wXc-sIg5kLD4XfbYJC--18">
           <mxGeometry y="450" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wXc-sIg5kLD4XfbYJC--37" value="+ udpPublishMsgQueuePop(): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0wXc-sIg5kLD4XfbYJC--18">
+          <mxGeometry y="476" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wXc-sIg5kLD4XfbYJC--38" value="+ getLogMsgQueueFront(): string" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0wXc-sIg5kLD4XfbYJC--18">
+          <mxGeometry y="502" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="0wXc-sIg5kLD4XfbYJC--39" value="+ getLogMsgQueueFront(): string" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="0wXc-sIg5kLD4XfbYJC--18">
+          <mxGeometry y="528" width="300" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
