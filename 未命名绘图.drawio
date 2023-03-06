@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2023-03-06T09:08:35.309Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" version="20.7.4" etag="stJX6cOeKfy7kvP1J0Lu" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-06T09:11:09.412Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" version="20.7.4" etag="sn_Y0cbkTZFqgICYi5eT" type="github">
   <diagram id="OJYYb_9SSu5JKfMCdYpM" name="第 1 页">
     <mxGraphModel dx="1050" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="mhRZEJvQ30FoYJ7Jb0JR-1" value="" style="html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="10" y="10" width="1040" height="720" as="geometry" />
+          <mxGeometry x="10" y="10" width="1630" height="1140" as="geometry" />
         </mxCell>
         <mxCell id="mhRZEJvQ30FoYJ7Jb0JR-2" value="APClass" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="686" y="38" width="300" height="138" as="geometry" />
@@ -26,7 +26,9 @@
           <mxGeometry y="112" width="300" height="26" as="geometry" />
         </mxCell>
         <mxCell id="mhRZEJvQ30FoYJ7Jb0JR-8" value="MessageHandleClass" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="60" y="38" width="300" height="632" as="geometry" />
+          <mxGeometry x="60" y="38" width="300" height="632" as="geometry">
+            <mxRectangle x="60" y="38" width="160" height="30" as="alternateBounds" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="mhRZEJvQ30FoYJ7Jb0JR-9" value="+ revIPAddress_: string" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mhRZEJvQ30FoYJ7Jb0JR-8">
           <mxGeometry y="26" width="300" height="26" as="geometry" />
