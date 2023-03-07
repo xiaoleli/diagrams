@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T02:41:23.605Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="feENyXim4bDWykyhp6pp" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-07T03:28:45.802Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="8G7ODJ0jDzZdd8-2loSj" version="21.0.2" type="github">
   <diagram id="OJYYb_9SSu5JKfMCdYpM" name="第 1 页">
     <mxGraphModel dx="1050" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -183,48 +183,69 @@
           <mxGeometry x="1100" y="220" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zMi-xVQ4D_88ckj2PTX9-21" value="tclLidarDriverApplication" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="720" y="350" width="410" height="346" as="geometry">
+          <mxGeometry x="720" y="350" width="410" height="546" as="geometry">
             <mxRectangle x="60" y="38" width="160" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="zMi-xVQ4D_88ckj2PTX9-48" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
-          <mxGeometry y="26" width="410" height="8" as="geometry" />
-        </mxCell>
         <mxCell id="zMi-xVQ4D_88ckj2PTX9-49" value="+ boInit(): bool" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
-          <mxGeometry y="34" width="410" height="26" as="geometry" />
+          <mxGeometry y="26" width="410" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zMi-xVQ4D_88ckj2PTX9-50" value="+ boParameterParser(const char*): bool" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
-          <mxGeometry y="60" width="410" height="26" as="geometry" />
+          <mxGeometry y="52" width="410" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zMi-xVQ4D_88ckj2PTX9-51" value="+ vRegisterApService(): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
-          <mxGeometry y="86" width="410" height="26" as="geometry" />
+          <mxGeometry y="78" width="410" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zMi-xVQ4D_88ckj2PTX9-52" value="+ boProc(): bool" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
-          <mxGeometry y="112" width="410" height="26" as="geometry" />
+          <mxGeometry y="104" width="410" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zMi-xVQ4D_88ckj2PTX9-53" value="+ vSentOutApEvent(): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
-          <mxGeometry y="138" width="410" height="26" as="geometry" />
+          <mxGeometry y="130" width="410" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zMi-xVQ4D_88ckj2PTX9-54" value="+ u16GetValueCycletimeMs(): uint16_t" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
-          <mxGeometry y="164" width="410" height="26" as="geometry" />
+          <mxGeometry y="156" width="410" height="26" as="geometry" />
         </mxCell>
         <mxCell id="zMi-xVQ4D_88ckj2PTX9-55" value="+ vDustFilter(const robosense::lidar::PointCloudMsg&lt;stPointType&gt;&amp;，tstDriverLidarMsg&amp;): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
-          <mxGeometry y="190" width="410" height="26" as="geometry" />
+          <mxGeometry y="182" width="410" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zMi-xVQ4D_88ckj2PTX9-56" value="+ getLogMsgQueueFront(): string" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
-          <mxGeometry y="216" width="410" height="26" as="geometry" />
+        <mxCell id="zMi-xVQ4D_88ckj2PTX9-56" value="+ vNonDustFilter(const robosense::lidar::PointCloudMsg&lt;stPointType&gt;&amp;，tstDriverLidarMsg&amp;): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
+          <mxGeometry y="208" width="410" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zMi-xVQ4D_88ckj2PTX9-57" value="+ logMsgQueueIsEmpty(): bool" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
-          <mxGeometry y="242" width="410" height="26" as="geometry" />
+        <mxCell id="zMi-xVQ4D_88ckj2PTX9-57" value="+ vFpsMonitor(): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
+          <mxGeometry y="234" width="410" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zMi-xVQ4D_88ckj2PTX9-58" value="+ logMsgQueuePop(): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
-          <mxGeometry y="268" width="410" height="26" as="geometry" />
+        <mxCell id="zMi-xVQ4D_88ckj2PTX9-58" value="+ vDataQualityMonitor(): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
+          <mxGeometry y="260" width="410" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zMi-xVQ4D_88ckj2PTX9-59" value="+ logMsgQueuePush(): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
-          <mxGeometry y="294" width="410" height="26" as="geometry" />
+        <mxCell id="zMi-xVQ4D_88ckj2PTX9-59" value="+ vDataQuantityMonitor(const tstDriverLidarMsg&amp;): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
+          <mxGeometry y="286" width="410" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="zMi-xVQ4D_88ckj2PTX9-60" value="+ get()  set(dataType)" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
-          <mxGeometry y="320" width="410" height="26" as="geometry" />
+        <mxCell id="zMi-xVQ4D_88ckj2PTX9-67" value="+ vDustFilterMonitor(): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
+          <mxGeometry y="312" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zMi-xVQ4D_88ckj2PTX9-68" value="+ vSensorTimeMonitor(timespec *，timespec *，double): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
+          <mxGeometry y="338" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zMi-xVQ4D_88ckj2PTX9-69" value="+ vDataOutRangeMonitor(): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
+          <mxGeometry y="364" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zMi-xVQ4D_88ckj2PTX9-70" value="+ vRosDataPublish(const tstDriverLidarMsg&amp;，const robosense::lidar::PointCloudMsg&lt;stPointType&gt;&amp;，ros::Publisher&amp;): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
+          <mxGeometry y="390" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zMi-xVQ4D_88ckj2PTX9-71" value="+ vRosOriginDataPublish(const tstDriverLidarMsg&amp;，const robosense::lidar::PointCloudMsg&lt;stPointType&gt;&amp;，ros::Publisher&amp;): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
+          <mxGeometry y="416" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zMi-xVQ4D_88ckj2PTX9-72" value="+ vFaultHandler(): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
+          <mxGeometry y="442" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zMi-xVQ4D_88ckj2PTX9-73" value="+ vDataReceiveMonitor(bool&amp;): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
+          <mxGeometry y="468" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zMi-xVQ4D_88ckj2PTX9-75" value="+ vFsmSend(uint8_t，std::string): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
+          <mxGeometry y="494" width="410" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="zMi-xVQ4D_88ckj2PTX9-76" value="+ vMissionDataEventCallback(const tstMissionPlanningMsg&amp;): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
+          <mxGeometry y="520" width="410" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
