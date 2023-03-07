@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-07T07:02:00.101Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="BiH-MP_wtV7UbgWX6zlx" version="21.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-07T07:10:32.997Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="SKtmyrNR0z42_JguUFrU" version="21.0.2" type="github">
   <diagram id="OJYYb_9SSu5JKfMCdYpM" name="第 1 页">
     <mxGraphModel dx="1050" dy="2500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -156,7 +156,7 @@
           <mxGeometry y="884" width="410" height="8" as="geometry" />
         </mxCell>
         <mxCell id="mhRZEJvQ30FoYJ7Jb0JR-33" value="tclRobosenseDriverApplication" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="1300" y="350" width="300" height="138" as="geometry" />
+          <mxGeometry x="1300" y="350" width="300" height="190" as="geometry" />
         </mxCell>
         <mxCell id="mhRZEJvQ30FoYJ7Jb0JR-39" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="mhRZEJvQ30FoYJ7Jb0JR-33" vertex="1">
           <mxGeometry y="26" width="300" height="8" as="geometry" />
@@ -164,17 +164,23 @@
         <mxCell id="WhF0ARjHz1xFYmld7zVm-76" value="+ boInit(): bool" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mhRZEJvQ30FoYJ7Jb0JR-33">
           <mxGeometry y="34" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WhF0ARjHz1xFYmld7zVm-77" value="+ vReadPointCloud(const robosense::lidar::PointCloudMsg&lt;stPointType&gt;&amp;&#xa;): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mhRZEJvQ30FoYJ7Jb0JR-33">
+        <mxCell id="WhF0ARjHz1xFYmld7zVm-88" value="+ vCallbackPointCloud(): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mhRZEJvQ30FoYJ7Jb0JR-33">
           <mxGeometry y="60" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WhF0ARjHz1xFYmld7zVm-78" value="+ iSearchBinary(float&amp;): int" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mhRZEJvQ30FoYJ7Jb0JR-33">
+        <mxCell id="WhF0ARjHz1xFYmld7zVm-90" value="+ vCallbackException(const robosense::lidar::Error&amp;): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mhRZEJvQ30FoYJ7Jb0JR-33">
           <mxGeometry y="86" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WhF0ARjHz1xFYmld7zVm-79" value="+ vCloudSegmentationPCL(): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mhRZEJvQ30FoYJ7Jb0JR-33">
+        <mxCell id="WhF0ARjHz1xFYmld7zVm-77" value="+ vReadPointCloud(const robosense::lidar::PointCloudMsg&lt;stPointType&gt;&amp;&#xa;): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mhRZEJvQ30FoYJ7Jb0JR-33">
           <mxGeometry y="112" width="300" height="26" as="geometry" />
         </mxCell>
+        <mxCell id="WhF0ARjHz1xFYmld7zVm-78" value="+ iSearchBinary(float&amp;): int" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mhRZEJvQ30FoYJ7Jb0JR-33">
+          <mxGeometry y="138" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WhF0ARjHz1xFYmld7zVm-79" value="+ vCloudSegmentationPCL(): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="mhRZEJvQ30FoYJ7Jb0JR-33">
+          <mxGeometry y="164" width="300" height="26" as="geometry" />
+        </mxCell>
         <mxCell id="mhRZEJvQ30FoYJ7Jb0JR-47" value="main method" style="html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="750" y="200" width="190" height="50" as="geometry" />
+          <mxGeometry x="750" y="10" width="190" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zMi-xVQ4D_88ckj2PTX9-21" value="tclLidarDriverApplication" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="840" y="350" width="410" height="884" as="geometry">
@@ -280,8 +286,8 @@
         <mxCell id="WhF0ARjHz1xFYmld7zVm-68" value="+ vPublishCloud(const robosense::lidar::PointCloudMsg&lt;stPointType&gt;&amp;): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zMi-xVQ4D_88ckj2PTX9-21">
           <mxGeometry y="858" width="410" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WhF0ARjHz1xFYmld7zVm-80" value="tclRobosenseDriverApplication" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="60" y="350" width="300" height="138" as="geometry" />
+        <mxCell id="WhF0ARjHz1xFYmld7zVm-80" value="tclOusterDriverApplication" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="60" y="350" width="300" height="164" as="geometry" />
         </mxCell>
         <mxCell id="WhF0ARjHz1xFYmld7zVm-81" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="WhF0ARjHz1xFYmld7zVm-80">
           <mxGeometry y="26" width="300" height="8" as="geometry" />
@@ -289,14 +295,17 @@
         <mxCell id="WhF0ARjHz1xFYmld7zVm-82" value="+ boInit(): bool" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WhF0ARjHz1xFYmld7zVm-80">
           <mxGeometry y="34" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WhF0ARjHz1xFYmld7zVm-83" value="+ vReadPointCloud(const robosense::lidar::PointCloudMsg&lt;stPointType&gt;&amp;&#xa;): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WhF0ARjHz1xFYmld7zVm-80">
+        <mxCell id="WhF0ARjHz1xFYmld7zVm-86" value="+ vCallbackSensor(): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WhF0ARjHz1xFYmld7zVm-80">
           <mxGeometry y="60" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WhF0ARjHz1xFYmld7zVm-84" value="+ iSearchBinary(float&amp;): int" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WhF0ARjHz1xFYmld7zVm-80">
+        <mxCell id="WhF0ARjHz1xFYmld7zVm-87" value="+ vCallbackPackets(): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WhF0ARjHz1xFYmld7zVm-80">
           <mxGeometry y="86" width="300" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="WhF0ARjHz1xFYmld7zVm-85" value="+ vCloudSegmentationPCL(): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WhF0ARjHz1xFYmld7zVm-80">
+        <mxCell id="WhF0ARjHz1xFYmld7zVm-89" value="+ vCallbackPointCloud(): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WhF0ARjHz1xFYmld7zVm-80">
           <mxGeometry y="112" width="300" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="WhF0ARjHz1xFYmld7zVm-83" value="+ vReadPointCloud(const robosense::lidar::PointCloudMsg&lt;stPointType&gt;&amp;&#xa;): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="WhF0ARjHz1xFYmld7zVm-80">
+          <mxGeometry y="138" width="300" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
