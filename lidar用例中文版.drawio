@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-23T02:11:44.117Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="t1Pki-5sY5FcgnLmOgw6" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-23T02:17:52.089Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="yHbpD4mipB5JC29cAc6l" version="22.1.21" type="github">
   <diagram name="第 1 页" id="Q8VzYoy-hQfeX_PJ2re1">
     <mxGraphModel dx="1050" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1920" pageHeight="1200" math="0" shadow="0">
       <root>
@@ -7,37 +7,37 @@
         <mxCell id="NlOH7jcBOCSyWvMb8UaH-1" value="" style="html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="50" width="1100" height="780" as="geometry" />
         </mxCell>
-        <mxCell id="NlOH7jcBOCSyWvMb8UaH-3" value="Driver Lidar" style="html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;horizontal=1;verticalAlign=top;fontSize=16;" parent="1" vertex="1">
+        <mxCell id="NlOH7jcBOCSyWvMb8UaH-3" value="雷达驱动模块" style="html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;horizontal=1;verticalAlign=top;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="290" y="40" width="640" height="600" as="geometry" />
         </mxCell>
-        <mxCell id="NlOH7jcBOCSyWvMb8UaH-4" value="Driver Lidar Process" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="NlOH7jcBOCSyWvMb8UaH-4" value="雷达驱动程序" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="540" y="388" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NlOH7jcBOCSyWvMb8UaH-8" value="Data Quality Monitor" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="NlOH7jcBOCSyWvMb8UaH-8" value="雷达点云质量监控" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="730" y="168" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NlOH7jcBOCSyWvMb8UaH-9" value="Get Lidar Msg" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="NlOH7jcBOCSyWvMb8UaH-9" value="获取雷达原始点云数据" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="350" y="387" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NlOH7jcBOCSyWvMb8UaH-12" value="Fsm" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="NlOH7jcBOCSyWvMb8UaH-12" value="故障监测模块" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="1016" y="273" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NlOH7jcBOCSyWvMb8UaH-13" value="&lt;span&gt;Driver SDK&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="NlOH7jcBOCSyWvMb8UaH-13" value="雷达特软件开发工具包程序" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="190" y="397" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NlOH7jcBOCSyWvMb8UaH-15" value="Data Time Monitor" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="NlOH7jcBOCSyWvMb8UaH-15" value="雷达点云时间监控" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="730" y="273" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NlOH7jcBOCSyWvMb8UaH-16" value="Data frequency Monitor" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="NlOH7jcBOCSyWvMb8UaH-16" value="雷达点云频率监控" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="730" y="388" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NlOH7jcBOCSyWvMb8UaH-17" value="Send AP Msg" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="NlOH7jcBOCSyWvMb8UaH-17" value="发送雷达点云AP消息" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="730" y="480" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NlOH7jcBOCSyWvMb8UaH-18" value="record log" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="NlOH7jcBOCSyWvMb8UaH-18" value="记录日志" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="540" y="550" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NlOH7jcBOCSyWvMb8UaH-20" value="ara::log" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="NlOH7jcBOCSyWvMb8UaH-20" value="日志模块" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="595" y="650" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NlOH7jcBOCSyWvMb8UaH-23" value="" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=15;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NlOH7jcBOCSyWvMb8UaH-9" target="NlOH7jcBOCSyWvMb8UaH-4" edge="1">
@@ -76,10 +76,10 @@
             <mxPoint x="740" y="522" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NlOH7jcBOCSyWvMb8UaH-50" value="Set ROS Msg" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
+        <mxCell id="NlOH7jcBOCSyWvMb8UaH-50" value="发送雷达点云ros消息" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="740" y="70" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="NlOH7jcBOCSyWvMb8UaH-53" value="&lt;span style=&quot;&quot;&gt;rviz&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="NlOH7jcBOCSyWvMb8UaH-53" value="&lt;span style=&quot;&quot;&gt;ros可视化模块&lt;/span&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="1020" y="70" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NlOH7jcBOCSyWvMb8UaH-54" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=15;" parent="1" vertex="1">
@@ -121,7 +121,7 @@
             <mxPoint x="620" y="890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NlOH7jcBOCSyWvMb8UaH-70" value="Perception sensor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+        <mxCell id="NlOH7jcBOCSyWvMb8UaH-70" value="感知传感器模块" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="1016" y="497" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NlOH7jcBOCSyWvMb8UaH-74" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="NlOH7jcBOCSyWvMb8UaH-17" target="NlOH7jcBOCSyWvMb8UaH-70" edge="1">
