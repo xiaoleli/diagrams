@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-19T07:35:27.317Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="1UOfU1l_MTT9y8WD577I" version="21.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-04T03:40:41.181Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="RylK3tGu8zS-nHb-3MyB" version="21.6.3" type="github">
   <diagram id="zR8raNqJ5cPuCDFoKTZ1" name="Page-1">
-    <mxGraphModel dx="1050" dy="524" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1050" dy="565" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -10,7 +10,7 @@
         <mxCell id="2Uwr9DyNA2NbGC3m8d-K-1" value="Tbox" style="html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;rounded=0;glass=0;sketch=0;" parent="1" vertex="1">
           <mxGeometry x="300" y="170" width="280" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="2Uwr9DyNA2NbGC3m8d-K-2" value="CPE" style="html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" parent="1" vertex="1">
+        <mxCell id="2Uwr9DyNA2NbGC3m8d-K-2" value="MQTT" style="html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=0" parent="1" vertex="1">
           <mxGeometry x="140" y="171" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2Uwr9DyNA2NbGC3m8d-K-4" value="Imu" style="html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -64,7 +64,7 @@
             <mxPoint x="300" y="446.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="2Uwr9DyNA2NbGC3m8d-K-25" value="CPE" style="html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="2Uwr9DyNA2NbGC3m8d-K-25" value="MQTT" style="html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="634" y="322" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2Uwr9DyNA2NbGC3m8d-K-26" value="&lt;code&gt;Fsm&lt;br&gt;&lt;/code&gt;" style="html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
