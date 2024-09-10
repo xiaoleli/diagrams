@@ -52,7 +52,7 @@
             <mxPoint y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rc6g_Jl07Sf6xdUzljRR-5" value="Map" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="rc6g_Jl07Sf6xdUzljRR-5" value="Map/Mapping" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="100" y="338" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rc6g_Jl07Sf6xdUzljRR-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="rc6g_Jl07Sf6xdUzljRR-5" edge="1">
