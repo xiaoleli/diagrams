@@ -73,7 +73,7 @@
           <mxGeometry x="550" y="2030" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QamxqkGbcU3FXPbwEzF8-157" value="+sIntToHexString(int value): std::string" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1" vertex="1">
-          <mxGeometry x="550" y="2056" width="340" height="22" as="geometry" />
+          <mxGeometry x="550" y="2056" width="340" height="24" as="geometry" />
         </mxCell>
         <mxCell id="dkvpZq7iE4lLp07j0uEw-1" value="venc_skeleton" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="960" y="1789" width="340" height="138" as="geometry">
@@ -102,7 +102,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dkvpZq7iE4lLp07j0uEw-17" value="+ boKillProcessesByName(const std::string&amp; name): bool" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1">
-          <mxGeometry x="550" y="2078" width="340" height="22" as="geometry" />
+          <mxGeometry x="550" y="2080" width="340" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
