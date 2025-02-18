@@ -51,7 +51,7 @@
         <mxCell id="QamxqkGbcU3FXPbwEzF8-150" value="+ vParameterParser(): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="QamxqkGbcU3FXPbwEzF8-137" vertex="1">
           <mxGeometry y="320" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="QamxqkGbcU3FXPbwEzF8-151" value="+ vParameterParser(const char* c_json_file_path): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="QamxqkGbcU3FXPbwEzF8-137" vertex="1">
+        <mxCell id="QamxqkGbcU3FXPbwEzF8-151" value="+ vInit(): void" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="QamxqkGbcU3FXPbwEzF8-137" vertex="1">
           <mxGeometry y="346" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="QamxqkGbcU3FXPbwEzF8-152" value="main method" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
