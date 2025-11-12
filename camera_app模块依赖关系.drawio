@@ -7,7 +7,7 @@
         <mxCell id="tQ0S1MAeub0KWl-7a0DA-1" value="" style="html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="40" y="40" width="740" height="590" as="geometry" />
         </mxCell>
-        <mxCell id="tQ0S1MAeub0KWl-7a0DA-2" value="«c&lt;span&gt;omponent&lt;/span&gt;»&lt;br&gt;&lt;span&gt;&lt;b&gt;driver_cam&lt;/b&gt;&lt;/span&gt;" style="html=1;dropTarget=0;fontStyle=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="tQ0S1MAeub0KWl-7a0DA-2" value="«c&lt;span&gt;omponent&lt;/span&gt;»&lt;br&gt;&lt;span&gt;&lt;b&gt;camera_app&lt;/b&gt;&lt;/span&gt;" style="html=1;dropTarget=0;fontStyle=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="265" y="175" width="290" height="320" as="geometry" />
         </mxCell>
         <mxCell id="tQ0S1MAeub0KWl-7a0DA-3" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="tQ0S1MAeub0KWl-7a0DA-2">
@@ -71,7 +71,7 @@
             <mxPoint x="555.29" y="396" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tQ0S1MAeub0KWl-7a0DA-16" value="«c&lt;span&gt;omponent&lt;/span&gt;»&lt;br&gt;&lt;b&gt;mviz&lt;/b&gt;" style="html=1;dropTarget=0;fontStyle=0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
+        <mxCell id="tQ0S1MAeub0KWl-7a0DA-16" value="«c&lt;span&gt;omponent&lt;/span&gt;»&lt;br&gt;&lt;b&gt;visualize&lt;/b&gt;" style="html=1;dropTarget=0;fontStyle=0;fillColor=#dae8fc;strokeColor=#6c8ebf;align=center;" vertex="1" parent="1">
           <mxGeometry x="615" y="275" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tQ0S1MAeub0KWl-7a0DA-17" value="" style="shape=module;jettyWidth=8;jettyHeight=4;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="tQ0S1MAeub0KWl-7a0DA-16">
