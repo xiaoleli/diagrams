@@ -10,7 +10,7 @@
         <mxCell id="oCjEsiiH-6nID5pbJaTs-2" value="camera_app" style="html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;horizontal=1;verticalAlign=top;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="280" y="240" width="640" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="oCjEsiiH-6nID5pbJaTs-3" value="&lt;span style=&quot;font-size: 16px; text-wrap: nowrap;&quot;&gt;driver_cam&lt;/span&gt;&amp;nbsp;Process" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="oCjEsiiH-6nID5pbJaTs-3" value="&lt;span style=&quot;font-size: 16px; text-wrap-mode: nowrap;&quot;&gt;camera_app&lt;/span&gt;&amp;nbsp;Process" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="520" y="428" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="oCjEsiiH-6nID5pbJaTs-4" value="Get dds YUV Msg" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
