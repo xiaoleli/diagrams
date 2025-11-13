@@ -15,31 +15,31 @@
         <mxCell id="_yi8CihCeai6aLUff-fY-3" value="+ map_userConf_: std::map&lt;int, UserConf&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_yi8CihCeai6aLUff-fY-2">
           <mxGeometry y="26" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_yi8CihCeai6aLUff-fY-4" value="+ map_userConf_init_: std::map&lt;int, UserConf&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_yi8CihCeai6aLUff-fY-2">
+        <mxCell id="_yi8CihCeai6aLUff-fY-4" value="+ map_slot_camera_id_: std::map&lt;std::string, int&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_yi8CihCeai6aLUff-fY-2">
           <mxGeometry y="52" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_yi8CihCeai6aLUff-fY-5" value="+ map_slotId_: std::map&lt;std::string, int&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_yi8CihCeai6aLUff-fY-2">
+        <mxCell id="_yi8CihCeai6aLUff-fY-5" value="+ count[]: int32_t" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_yi8CihCeai6aLUff-fY-2">
           <mxGeometry y="78" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_yi8CihCeai6aLUff-fY-6" value="+ po_serviceHandle_: ara::com::FindServiceHandle" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_yi8CihCeai6aLUff-fY-2">
+        <mxCell id="_yi8CihCeai6aLUff-fY-6" value="+ deviceId_: int32_t" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_yi8CihCeai6aLUff-fY-2">
           <mxGeometry y="104" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_yi8CihCeai6aLUff-fY-7" value="+ po_proxy_[] : std::unique_ptr&lt;tclVencProxy&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_yi8CihCeai6aLUff-fY-2">
+        <mxCell id="_yi8CihCeai6aLUff-fY-7" value="+ context_ : aclrtContext" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_yi8CihCeai6aLUff-fY-2">
           <mxGeometry y="130" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_yi8CihCeai6aLUff-fY-8" value="+ cl_exec_client_[]::ara::exec::ExecutionClient" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_yi8CihCeai6aLUff-fY-2">
+        <mxCell id="_yi8CihCeai6aLUff-fY-8" value="+ stream_ : aclrtStream" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_yi8CihCeai6aLUff-fY-2">
           <mxGeometry y="156" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_yi8CihCeai6aLUff-fY-9" value="+ cl_venc_skeleton_[]: std::unique_ptr&lt;tclVencSkeleton&gt;" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_yi8CihCeai6aLUff-fY-2">
+        <mxCell id="_yi8CihCeai6aLUff-fY-9" value="+ vpc_chnId_[]: hi_vpc_chn" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_yi8CihCeai6aLUff-fY-2">
           <mxGeometry y="182" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_yi8CihCeai6aLUff-fY-10" value="+ cl_provider_fsm_: std::unique_ptr&lt;tclProviderFsm&gt; " style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_yi8CihCeai6aLUff-fY-2">
+        <mxCell id="_yi8CihCeai6aLUff-fY-10" value="+ vpc_stChnAttr_[]: hi_vpc_chn_attr " style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_yi8CihCeai6aLUff-fY-2">
           <mxGeometry y="208" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_yi8CihCeai6aLUff-fY-11" value="+ deviceId_: int32_t" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_yi8CihCeai6aLUff-fY-2">
+        <mxCell id="_yi8CihCeai6aLUff-fY-11" value="+ vpc_inputPic_[]: hi_vpc_pic_info" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_yi8CihCeai6aLUff-fY-2">
           <mxGeometry y="234" width="340" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="_yi8CihCeai6aLUff-fY-12" value="+ context_: aclrtContext" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_yi8CihCeai6aLUff-fY-2">
+        <mxCell id="_yi8CihCeai6aLUff-fY-12" value="+ vpc_outputPic_[]: hi_vpc_pic_info" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_yi8CihCeai6aLUff-fY-2">
           <mxGeometry y="260" width="340" height="26" as="geometry" />
         </mxCell>
         <mxCell id="_yi8CihCeai6aLUff-fY-13" value="......" style="text;strokeColor=#82b366;fillColor=#d5e8d4;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="_yi8CihCeai6aLUff-fY-2">
