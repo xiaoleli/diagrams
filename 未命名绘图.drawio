@@ -16,7 +16,7 @@
         <mxCell id="LuPVJIBSTsHfC48VEvk3-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="MDC" vertex="1">
           <mxGeometry height="60" width="120" x="530" y="410" as="geometry" />
         </mxCell>
-        <mxCell id="LuPVJIBSTsHfC48VEvk3-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="网页" vertex="1">
+        <mxCell id="LuPVJIBSTsHfC48VEvk3-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="网页和驾驶舱" vertex="1">
           <mxGeometry height="60" width="120" x="180" y="230" as="geometry" />
         </mxCell>
         <mxCell id="LuPVJIBSTsHfC48VEvk3-8" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#B5739D;" value="">
@@ -25,15 +25,15 @@
             <mxPoint x="239.00000000000023" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LuPVJIBSTsHfC48VEvk3-9" connectable="0" parent="LuPVJIBSTsHfC48VEvk3-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1.&lt;span style=&quot;color: rgb(31, 31, 31); font-family: system-ui, sans-serif; font-size: 12px; text-align: start; white-space: normal;&quot;&gt;getDigTruckVideoByTruckCode&lt;/span&gt;" vertex="1">
+        <mxCell id="LuPVJIBSTsHfC48VEvk3-9" connectable="0" parent="LuPVJIBSTsHfC48VEvk3-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1.每10秒调用一次&lt;span style=&quot;color: rgb(31, 31, 31); font-family: system-ui, sans-serif; font-size: 12px; text-align: start; white-space: normal;&quot;&gt;getDigTruckVideoByTruckCode&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="0.095" y="-1" as="geometry">
             <mxPoint y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LuPVJIBSTsHfC48VEvk3-13" edge="1" parent="1" source="LuPVJIBSTsHfC48VEvk3-3" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#B5739D;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" target="LuPVJIBSTsHfC48VEvk3-5" value="">
+        <mxCell id="LuPVJIBSTsHfC48VEvk3-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#B5739D;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="390" y="320" as="sourcePoint" />
-            <mxPoint x="440" y="270" as="targetPoint" />
+            <mxPoint x="300.0000000000002" y="441" as="sourcePoint" />
+            <mxPoint x="530" y="441" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LuPVJIBSTsHfC48VEvk3-14" connectable="0" parent="LuPVJIBSTsHfC48VEvk3-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2.开始推流指令" vertex="1">
@@ -61,17 +61,6 @@
         <mxCell id="LuPVJIBSTsHfC48VEvk3-21" connectable="0" parent="LuPVJIBSTsHfC48VEvk3-20" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4.返回流数据" vertex="1">
           <mxGeometry relative="1" x="-0.1143" as="geometry">
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LuPVJIBSTsHfC48VEvk3-25" edge="1" parent="1" source="LuPVJIBSTsHfC48VEvk3-3" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#B5739D;" target="LuPVJIBSTsHfC48VEvk3-5" value="">
-          <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="390" y="320" as="sourcePoint" />
-            <mxPoint x="440" y="270" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="LuPVJIBSTsHfC48VEvk3-26" connectable="0" parent="LuPVJIBSTsHfC48VEvk3-25" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6.结束推流指令" vertex="1">
-          <mxGeometry relative="1" x="0.0765" y="-1" as="geometry">
-            <mxPoint x="-10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LuPVJIBSTsHfC48VEvk3-27" edge="1" parent="1" source="LuPVJIBSTsHfC48VEvk3-5" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;strokeColor=#B5739D;" target="LuPVJIBSTsHfC48VEvk3-4" value="">
