@@ -8,7 +8,7 @@
           <mxGeometry height="1020" width="1100" x="50" as="geometry" />
         </mxCell>
         <mxCell id="SnjWkFp1kHOk5AwqL9R2-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=15;" value="Localization" vertex="1">
-          <mxGeometry height="60" width="30" x="190" y="212" as="geometry" />
+          <mxGeometry height="60" width="30" x="190" y="189" as="geometry" />
         </mxCell>
         <mxCell id="SnjWkFp1kHOk5AwqL9R2-3" parent="1" style="html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;horizontal=1;verticalAlign=top;fontSize=16;" value="Tbox" vertex="1">
           <mxGeometry height="830" width="640" x="290" y="40" as="geometry" />
@@ -17,7 +17,7 @@
           <mxGeometry height="70" width="140" x="540" y="388" as="geometry" />
         </mxCell>
         <mxCell id="SnjWkFp1kHOk5AwqL9R2-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="Get Localization Msg" vertex="1">
-          <mxGeometry height="70" width="140" x="350" y="202" as="geometry" />
+          <mxGeometry height="70" width="140" x="350" y="161" as="geometry" />
         </mxCell>
         <mxCell id="SnjWkFp1kHOk5AwqL9R2-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="Get Vehicle Msg" vertex="1">
           <mxGeometry height="70" width="140" x="350" y="336" as="geometry" />
@@ -104,7 +104,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="SnjWkFp1kHOk5AwqL9R2-36" parent="1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=15;" value="" vertex="1">
-          <mxGeometry height="8" width="130" x="219" y="234" as="geometry" />
+          <mxGeometry height="8" width="130" x="219" y="195" as="geometry" />
         </mxCell>
         <mxCell id="SnjWkFp1kHOk5AwqL9R2-37" parent="1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=15;" value="" vertex="1">
           <mxGeometry height="8" width="130" x="220" y="372" as="geometry" />
@@ -237,6 +237,18 @@
             <mxPoint x="640" y="910" as="sourcePoint" />
             <mxPoint x="698" y="828" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="BC_hAAQSqffNsKkSBH8--1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fontSize=15;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" value="Send AP Msg" vertex="1">
+          <mxGeometry height="70" width="140" x="350" y="238" as="geometry" />
+        </mxCell>
+        <mxCell id="BC_hAAQSqffNsKkSBH8--2" edge="1" parent="1" source="SnjWkFp1kHOk5AwqL9R2-4" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;fontSize=15;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.266;exitY=0.033;exitDx=0;exitDy=0;exitPerimeter=0;" target="BC_hAAQSqffNsKkSBH8--1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="492" as="sourcePoint" />
+            <mxPoint x="550" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BC_hAAQSqffNsKkSBH8--3" parent="1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;fontSize=15;" value="" vertex="1">
+          <mxGeometry height="8" width="130" x="230" y="249" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
